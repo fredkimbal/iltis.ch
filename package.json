@@ -1,0 +1,19 @@
+{
+  "name": "iltis.ch",
+  "version": "1.0.1",
+  "description": "packages Config für iltis.ch",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.6.9"
+  },
+  "devDependencies": {
+    "typescript": "2.8.1"
+  }
+}
