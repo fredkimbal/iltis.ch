@@ -1,6 +1,6 @@
 {
   "name": "iltis.ch",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "packages Config für iltis.ch",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
@@ -11,7 +11,17 @@
   },
   "license": "ISC",
   "dependencies": {
-    "angular": "1.6.9"
+    "@angular/animations": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/forms": "^5.0.0",
+    "@angular/http": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
+    "@angular/platform-server": "^5.0.0",
+    "@angular/router": "^5.0.0"
   },
   "devDependencies": {
     "typescript": "2.8.1"
